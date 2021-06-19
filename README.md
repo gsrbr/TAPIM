@@ -27,3 +27,12 @@ On the script there are two variables named hosts and last, the both are arrays,
 hosts = ["10.33.1.254","10.3.0.132"]#Hosts list
 last=["1","1"]
 ```
+
+## FAQ
+### What's "last.txt"
+You can use use this file for get the hosts/server status with another application
+```
+10.33.1.254:1
+10.3.0.132:1
+```
+the file have the n lines with the ip and the status `ip:status` 0 for down and 1 for up
