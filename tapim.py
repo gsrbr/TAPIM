@@ -22,10 +22,10 @@ def ping_test (host,last):
     message=""
     temp=""
     original_last=last
-    reached = []                           #Empty list to collect reachable hosts
-    not_reached = []                          #Empty list to collect unreachable hosts
-    new_reached = []                           #Empty list to collect reachable hosts
-    new_not_reached = []                          #Empty list to collect unreachable hosts
+    reached = []
+    not_reached = []
+    new_reached = []
+    new_not_reached = []
     var_not_reached = []
     var=0
     while (var<len(hosts)):
