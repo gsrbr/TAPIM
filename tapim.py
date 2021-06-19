@@ -132,7 +132,7 @@ def ping_test (host,last):
             temp=temp+new_not_reached[count]+"❌%0A"
             count=count+1
         message=message+temp
-        telegram_bot_sendtext(message,"")#put here the chat_id of the destiny
+        telegram_bot_sendtext(message,"")#put here the chat_id of the addressee
         temp=""
     return last
 
