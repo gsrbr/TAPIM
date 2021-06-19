@@ -3,6 +3,8 @@
 
 This project it's a simple script for send mensages with telegram when as host go up or down, it's very simple to use, you just need to put de telegram bot id and de chat_id of de addressee and put to run
 
+<img src="ex.png" alt="drawing" width="200"/>
+
 ## Get Start
 Download or clone the repository OBS: The script create/edit a file named "last.txt" when are running remember to give the permissions on the folder
 ### Config
